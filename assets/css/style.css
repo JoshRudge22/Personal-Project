@@ -1,21 +1,59 @@
+/* Every Page */
+body {
+    background-color: #f5f5a3;
+}
+
 /* Header */
 h1 {
-    text-align: center;
-    font-size: 60px;
+    margin-left: 60px;
+    font-size: 90px;
     letter-spacing: 3px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.pic1 {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.pic2 {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    top: 10px;
+    right: 295px;
+    padding: 0;
+    
+}
+
+.pic3 {
+    height: 30vh;
+    position: absolute;
+    top: 10px;
+    right: 595px;
 }
 
 /* Section */
 
 .col {
     position: relative;
-    margin-top: 75px;
+    margin-top: 130px;
     text-align: center;
+}
+
+.home-page {
+    font-size: 20px;
+}
+
+strong {
+    color: blue;
 }
 
 /* Footer */
