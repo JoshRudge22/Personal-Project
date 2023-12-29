@@ -20,6 +20,7 @@ h2 {
     list-style: none;
     display: inline-flex;
     cursor: pointer;
+    color: black;
 }
 
 .nav {
@@ -30,11 +31,17 @@ h2 {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+.active {
+    border-bottom: 5px solid black;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .pic1 {
+    position: fixed;
     height: 30vh;
     width: 30vh;
     position: absolute;
@@ -43,6 +50,7 @@ li a:hover {
 }
 
 .pic2 {
+    position: fixed;
     height: 30vh;
     width: 30vh;
     position: absolute;
@@ -53,6 +61,7 @@ li a:hover {
 }
 
 .pic3 {
+    position: fixed;
     height: 30vh;
     position: absolute;
     top: 10px;
