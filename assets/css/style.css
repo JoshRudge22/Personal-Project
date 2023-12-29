@@ -16,8 +16,10 @@ h2 {
 }
 
 .nav-bar {
+    left: 0;
     list-style: none;
     display: inline-flex;
+    cursor: pointer;
 }
 
 .nav {
@@ -26,7 +28,6 @@ h2 {
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
-    background-color: #808080;
 }
 
 li a:hover {
@@ -67,7 +68,7 @@ li a:hover {
 }
 
 .home-page {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Footer */
