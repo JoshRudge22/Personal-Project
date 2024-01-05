@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +12,12 @@
     <header>
         <h1>Josh Rudge</h1>
         <h2>Full Stack Software Development Student</h2>
-        <a href="index.html"><img class="pic1" src="assets/images/pic1.jpg"></a>
-        <a href="index.html"><img class="pic2" src="assets/images/pic2.jpg"></a>
-        <a href="index.html"><img class="pic3" src="assets/images/pic1.png"></a>
         <ul class="nav-bar">
             <li class="nav"><a href="index.html">Home</a></li>
             <li class="nav"><a href="about-me.html">About Me</a></li>
             <li class="nav"><a href="cv.htm">CV</a></li>
             <li class="nav"><a href="#" class="active">Contact Me</a></li>
-            <li class="nav"><a href="gallery.html">Gallery</a></li>
+            <li class="nav"><a href="project.html">Project</a></li>
         </ul>
     </header>
     <section>
@@ -31,23 +27,38 @@
                     <label for="fname">First Name</label>
                     <input id="fname" name="fname" type="text" required><br><br>
                     <label for="lname">Last Name</label>
-                    <input id="lname" name="lname"type="text" required><br><br>
+                    <input id="lname" name="lname" type="text" required><br><br>
                     <label for="email">Email Address</label>
                     <input id="email" name="email" type="text"><br><br>
                     <label for="number">Contact Number</label>
                     <input id="number" name="name" type="text"><br><br>
                     <label for="time">Best Time to Contact</label>
                     <select>
-                        <option value="morning">9am-12pm</option>
-                        <option value="afternoon">2pm-5pm</option>
-                        <option value="evening">6pm-8pm</option>
+                        <option value="time" required>Please pick a time</option>
+                        <option value="morning" required>9am-12pm</option>
+                        <option value="afternoon" required>2pm-5pm</option>
+                        <option value="evening" required>6pm-8pm</option>
+                    </select>
+                </form>
             </div>
             <div class="col">
-                
+                <table>
+                    <tr>
+                        <th>Full Name</th>
+                        <td>Joshua Rudge</td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number</th>
+                        <td>07715388983</td>
+                    </tr>
+                    <tr>
+                        <th>Email Address</th>
+                        <td><u><a href="mailto:joshrudge@hotmail.com?subject=Are you free for a chat?">joshrudge@hotmail.com</a></u>
+                    </tr>
+                    </tr>
+                </table>
             </div>
-        </div> 
-            </select>
-        </form>
+        </div>
     </section>
     <footer>
         <ul class="soical-media">
@@ -71,5 +82,4 @@
     </footer>
     <script src="https://kit.fontawesome.com/71c737d9d6.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
